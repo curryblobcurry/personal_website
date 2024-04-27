@@ -1,0 +1,75 @@
+.body {
+    width: 75%;
+    max-width: 500px;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #33C4FF;
+    text-align: center;
+    font-family: monospace;
+    padding: 5px;
+    background-image: url('images/green_pink_plants.jpg');
+    background-color: #009973;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.body h2, h3, p, li {
+    text-align: right;
+    color: #FFEFEF;
+    border-radius: 5px;
+    list-style-position: inside;
+}
+
+body span {
+    background-color: #13682D;
+}
+
+li span {
+    background-color: #13682D;
+}
+
+.resize_body {
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+}
+
+.image {
+    max-height: 500px;
+    max-width: 500px;
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    right: 50%;
+}
+
+.navbar li {
+    display: inline;
+    color: #00e6ac;
+    font-family: monospace;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+  color: #00e6ac;
+  font-family: monospace;
+}
+
+a:visited {
+  color: #cc0099;
+  font-family: monospace;
+}
+
+a:hover {
+  color: #ff0066;
+  font-family: "Courier", monospace;
+}
+
+a:active {
+  color: #006600;
+  font-family: monospace;
+}

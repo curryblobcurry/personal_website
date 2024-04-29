@@ -5,22 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hoops Page</title>
         <link href="main_page.css" rel="stylesheet"/>
+        <link rel="icon" href="/favicon.ico"/>
     </head>
-    <body>
-        <div class="navbar">
-            <ul>
-                <li><a class="link" href="https://rmcary.com">Home</a></li>
-                <li><a class="link" href="https://rmcary.com/about.html">About Me</a></li>
-                <li><a class="link" href="https://rmcary.com/proj.html">Projects</a></li>
-                <li><a class="link" href="">Blog</a></li>
-                <li><a class="link" href="https://rmcary.com/contact.html">Contact Me</a></li>
-            </ul>
-        </div>
+    <body class="resize_body">
+        <nav class="navbar">
+        </nav>
         <hr>
         <div class="body">
             <h2><span>Hoops Stuff!</span></h2>
             <p><span>Presumably you clicked on this link because you like basketball. I can already tell we're going to get along.</span></p>
             <p><span>This page will feature fun little basketball stuff I'm doing.</span></p>
         </div>
+        <hr>
+        <div class="body" style="list-style-position: inside;">
+            <button type="button" id="clickMe" onclick="randomNbaPlayer();">Generate a random NBA player</button>
+        </div>
+        <hr>
+        <div class="body" id="bball_player">
+        <script src="/js/bball_random_player.js"></script>
+        </div>
+        <script src="/js/load_nav.js"></script>
     </body>
 </html>

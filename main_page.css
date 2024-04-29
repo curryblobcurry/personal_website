@@ -21,6 +21,10 @@
     list-style-position: inside;
 }
 
+#bball_player {
+    height: 20%;
+}
+
 body span {
     background-color: #13682D;
 }
@@ -67,6 +71,7 @@ a:visited {
 a:hover {
   color: #ff0066;
   font-family: "Courier", monospace;
+  background-color: white;
 }
 
 a:active {
